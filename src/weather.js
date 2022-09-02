@@ -5,6 +5,18 @@ import "./weather.css";
 export default function Weather(){
     return <div className="weather">
         <div className="container">
+      <form>
+           <div className="row">
+                <div className="col-9">
+            <input type="search" 
+            placeholder="Enter a city"
+            className="form-control"/>
+            </div>
+            <div className="col-3">
+            <button type="button" class="btn btn-primary">Seach</button>
+            </div>
+            </div>
+            </form>
             <div className="row">
                 <div className="col-6">
                 <img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" alt="mostly cloudy" />
@@ -14,7 +26,7 @@ export default function Weather(){
 Precipitation: 87%
                     </li>
                     <li>
-                        Humidity: 87% <button type="button" class="btn btn-primary">Primary</button>
+                        Humidity: 87% 
                     </li>
                     <li>
                         Wind: 11 Km/h
