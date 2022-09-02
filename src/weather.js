@@ -20,8 +20,9 @@ export default function Weather(){
             <div className="row">
                 <div className="col-6">
                 <img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" alt="mostly cloudy" />
-               24
-                <ul>
+             <span className="degrees" >24</span> 
+             <span className="secondary">
+                <ul className="list">
                     <li>
 Precipitation: 87%
                     </li>
@@ -32,19 +33,20 @@ Precipitation: 87%
                         Wind: 11 Km/h
                     </li>
                 </ul>
+    
+    </span>
     </div>
-    <div className="col-6">
-        <h1> New York</h1>
+    <div className="col-6" id="city">
+        <h1> New York, EE. UU.</h1>
                 <ul>
-                    <li>
-Martes, 04:00
+                    <li className="details">
+                        Friday, 03:00
                     </li>
-                    <li>
-                        Nublado
+                    <li className="details">
+                        Cloudy
                     </li>
                 </ul>
-    </div>
-            
+            </div>
     </div>
     </div>
     </div>;
