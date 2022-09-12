@@ -21,6 +21,7 @@ export default function Weather(){
                 <div className="col-6">
                 <img src="https://ssl.gstatic.com/onebox/weather/64/cloudy.png" alt="mostly cloudy" />
              <span className="degrees" >24</span> 
+             <span className="unit" >°C</span>
              <span className="secondary">
                 <ul className="list">
                     <li>
