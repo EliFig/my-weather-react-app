@@ -7,6 +7,8 @@
     max-width: 600px;
     padding: 16px;
     margin:30px auto;
+        height: 222px;
+            width: 585px;
 }
 .weather form{
     margin-bottom: 20px;
@@ -16,6 +18,14 @@
     font-size: 48px;
      font-weight: 400;
      line-height: 56px;
+}
+.weather .unit{
+    color: rgb(32, 33, 36);
+    position: relative;
+    top: -23px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
 .weather h1{
     color: rgb(32, 33, 36);
@@ -55,3 +65,4 @@
     list-style: none;
     
 }
+
