@@ -66,4 +66,11 @@
     list-style: none;
     
 }
+.weather canvas{
+    display:inline-block;
+
+}
+.weather .col-6{
+    margin-top: 30px;
+}
 
