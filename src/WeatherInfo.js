@@ -7,12 +7,13 @@ export default function(props){
         <div className="Weather">
    <div className="row">
                 <div className="col-6">
-                    <span className="d-flex">
+                    <div className="d-flex">
+                        <div>
                     <WeatherIcon code={props.data.icon} alt={props.data.description}/>
-                    </span>
-                    <span>
+                    </div>
+                    <div>
             <WeatherTemperature celsius={props.data.degrees} />
-            </span>
+            </div>
              <span className="secondary">
                 <ul className="list">
                     <li>
@@ -24,6 +25,7 @@ export default function(props){
                 </ul>
     
     </span>
+    </div>
     </div>
     <div className="col-6" id="city">
         <h1>{props.data.city}</h1>
