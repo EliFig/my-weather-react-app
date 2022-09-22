@@ -4,9 +4,9 @@ import WeatherIcon from "./WeatherIcon";
 import WeatherTemperature from "./WeatherTemperature";
 
 
-export default function(props){
+export default function WeatherInfo(props){
     return(
-        <div className="Weather">
+        <div className="WeatherInfo">
    <div className="row">
                 <div className="col-6">
                     <div className="d-flex">
