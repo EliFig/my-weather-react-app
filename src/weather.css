@@ -6,13 +6,16 @@
     font-family: arial, sans-serif;
     max-width: 600px;
     padding: 16px;
-    margin:30px;
+    margin-top:30px;
         height: 330px;
             width: 578px;
            
 }
 .weather form{
     margin-bottom: 20px;
+}
+.weather input{
+    width: 100%;
 }
 .weather .degrees {
     color: rgb(32, 33, 36);

@@ -45,16 +45,16 @@ setCity(event.target.value);
 if(weatherData.ready){
 return (
         <div className="weather">
-        <div className="container d-md-flex">
+        <div className="container container-fluid">
       <form onSubmit={handleSubmit}>
            <div className="row">
-                <div className="col-sm-9">
+                <div className="col-9">
             <input type="search" 
             placeholder="Enter a city"
             onChange={handleCityChange}
             className="form-control"/>
             </div>
-            <div className="col-sm-3">
+            <div className="col-3">
             <button type="button" className="btn btn-primary">Seach</button>
             </div>
             </div>

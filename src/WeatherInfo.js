@@ -7,15 +7,16 @@ import WeatherTemperature from "./WeatherTemperature";
 export default function WeatherInfo(props){
     return(
         <div className="WeatherInfo">
+            <div className="container">
    <div className="row">
-                <div className="col-sm-6">
-                    <div className="d-md-flex">
-                        <div>
+                <div className="col-6">
+                    <div className="row">
+                        <div className="col-4">
                     <WeatherIcon code={props.data.icon} alt={props.data.description} size={52}/>
                     </div>
-                    <div>
+                   <div className="col-8">
             <WeatherTemperature celsius={props.data.degrees} />
-            </div>
+        </div>
              <span className="secondary">
                 <ul className="list">
                     <li>
@@ -27,9 +28,9 @@ export default function WeatherInfo(props){
                 </ul>
     
     </span>
+</div>
     </div>
-    </div>
-    <div className="col-sm-6" id="city">
+    <div className="col-6" id="city">
         <h1>{props.data.city}</h1>
                 <ul>
                     <li className="details">
@@ -40,6 +41,7 @@ export default function WeatherInfo(props){
                     </li>
                 </ul>
             </div>
+    </div>
     </div>
     </div>
     );
