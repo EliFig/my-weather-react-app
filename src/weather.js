@@ -45,7 +45,7 @@ setCity(event.target.value);
 if(weatherData.ready){
 return (
         <div className="weather">
-        <div className="container container-fluid">
+        <div className="container">
       <form onSubmit={handleSubmit}>
            <div className="row">
                 <div className="col-9">
