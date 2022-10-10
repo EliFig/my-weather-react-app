@@ -76,7 +76,7 @@
 .WeatherInfo .row{
     margin-bottom: 25px;
 }
-@media only screen and (max-width: 576px) {
+@media only screen and (max-width: 450px) {
     .weather{
         width: 350px;
         height: 300px;
