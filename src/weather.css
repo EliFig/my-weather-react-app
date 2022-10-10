@@ -76,3 +76,24 @@
 .WeatherInfo .row{
     margin-bottom: 25px;
 }
+@media only screen and (max-width: 576px) {
+    .weather{
+        width: 356px;
+        height: 300px;
+    }
+        .weather h1 {
+            color: rgb(32, 33, 36);
+            font-size: 22px;
+        }
+                         .weather .details {
+                             font-size: 13px;
+                         }
+
+    .WeatherForecast{
+        display: none;
+    }
+.App footer {
+    font-size: 9px;
+    margin-left: 13px;
+}
+}
