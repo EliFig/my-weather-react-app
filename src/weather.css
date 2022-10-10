@@ -78,23 +78,22 @@
 }
 @media only screen and (max-width: 600px) {
     .weather{
-        width: 350px;
+        width: 345px;
         height: 300px;
-        margin-right: 20px;
     }
         .weather h1 {
             color: rgb(32, 33, 36);
             font-size: 22px;
+            font-weight: bold;
         }
                          .weather .details {
                              font-size: 13px;
                          }
-
+.weather .degrees {
+    color: rgb(32, 33, 36);
+    font-size: 43px;}
+    
     .WeatherForecast{
         display: none;
     }
-.App footer {
-    font-size: 9px;
-    margin-left: 13px;
-}
 }
