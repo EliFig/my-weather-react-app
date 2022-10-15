@@ -1,5 +1,4 @@
 .App {
-    display: block;
         margin: 30px auto;
             max-width: 600px;
     
@@ -10,9 +9,13 @@
     margin-left: 33px;
 }
 @media only screen and (max-width: 600px){
+    .App{
+        max-width: 367px;
+    }
     .App footer {
             font-size: 9px;
             margin-left: 13px;
+
         }
     
        
