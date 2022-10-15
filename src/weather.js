@@ -55,7 +55,7 @@ return (
             className="form-control"/>
             </div>
             <div className="col-3">
-            <button type="button" className="btn btn-primary">Seach</button>
+            <button onClick={handleSubmit} type="button" className="btn btn-primary">Seach</button>
             </div>
             </div>
             </form>
