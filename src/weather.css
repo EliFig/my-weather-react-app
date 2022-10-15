@@ -13,6 +13,8 @@
 }
 .weather form{
     margin-bottom: 20px;
+        padding-left: 10px;
+            padding-right: 10px;
 }
 .weather input{
     width: 100%;
