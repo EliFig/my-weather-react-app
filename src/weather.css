@@ -13,8 +13,8 @@
 }
 .weather form{
     margin-bottom: 20px;
-        padding-left: 10px;
-            padding-right: 10px;
+        padding-left: 28px;
+            padding-right: 28px;
 }
 .weather input{
     width: 100%;
@@ -80,7 +80,7 @@
 }
 @media only screen and (max-width: 600px) {
     .weather{
-        width: 323px;
+        width: 330px;
         height: 300px;
     }
         .weather h1 {
@@ -98,4 +98,5 @@
     .WeatherForecast{
         display: none;
     }
+
 }
