@@ -2,6 +2,7 @@
     max-width: 600px;
     display: block;
         margin: 0 auto;
+      
     
 }
 .App footer{
@@ -15,7 +16,5 @@
             margin-left: 13px;
         }
     
-        .App {
-            margin-left: -11px;
-        }
+       
 }
