@@ -80,7 +80,7 @@
 }
 @media only screen and (max-width: 600px) {
     .weather{
-        width: 345px;
+        width: 323px;
         height: 300px;
     }
         .weather h1 {
